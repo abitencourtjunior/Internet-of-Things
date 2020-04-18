@@ -1,0 +1,8 @@
+
+.idea/
+
+venv/bin/
+
+venv/lib/python3.6/site-packages/
+
+venv/
