@@ -11,6 +11,7 @@ try:
         light.turn_off_light()
         time.sleep(2)
         light.turn_on_light()
+        time.sleep(5)
 
 except KeyboardInterrupt: # If CTRL+C is pressed, exit cleanly:
    print("Keyboard interrupt")
@@ -20,6 +21,6 @@ except:
 
 finally:
     print("Clear GPIO")
-    light.cleanup()
+    light.clear_gpio()
 
 
