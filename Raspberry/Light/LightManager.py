@@ -5,6 +5,7 @@ class LightManager:
 
     def __init__(self, number_output):
         self._number_output = number_output
+        GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(number_output, GPIO.OUT)
 
