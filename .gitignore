@@ -6,3 +6,7 @@ venv/bin/
 venv/lib/python3.6/site-packages/
 
 venv/
+
+Raspberry/__pycache__/
+
+Raspberry/Light/__pycache__/

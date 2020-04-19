@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 
 
-class LightManager(object):
+class LightManager:
 
     def __init__(self, number_output):
         self._number_output = number_output
