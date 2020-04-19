@@ -16,3 +16,6 @@ class LightManager:
         GPIO.output(self._number_output, 0)
         return
 
+    def clear_gpio(self):
+        GPIO.cleanup()
+        return
